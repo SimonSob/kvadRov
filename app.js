@@ -27,7 +27,15 @@ function Calculate()
             res1 = (-b) / (2*a)
             res2 = (-b) / (2*a)
         }
-        res1 = (-b + Math.sqrt(disc)) / (2*a*b)
-        res1 = (-b - Math.sqrt(disc)) / (2*a*b)
+        else
+        {
+            res1 = (-b + Math.sqrt(disc)) / (2*a*b)
+            res1 = (-b - Math.sqrt(disc)) / (2*a*b)
+        }
+        
+    }
+    else
+    {
+        res1 = "nelze";
     }
 }
